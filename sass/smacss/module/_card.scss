@@ -1,0 +1,20 @@
+.card{
+    width: 290px;
+    padding: 10px;
+    background-color: $bg-card;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px goldenrod;
+    transition: all 0.2s ease-in;
+
+
+
+    &-buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+ .card:hover {
+    transform: translate(0, -30px);
+ }

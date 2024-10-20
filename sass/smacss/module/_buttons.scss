@@ -1,0 +1,35 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    
+
+    &-primary,
+    &-secondary {
+        padding: 10px;
+        width: 90px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    &-primary {
+        background-color: $bg-primary;
+        color: $btn-primary-color;
+    }
+
+    &-primary:hover {
+        background-color: $btn-primary-hover;
+        color: $btn-primary-color-hover;
+        transform: translate(20px,0px);
+    }
+
+    &-secondary {
+        background-color: $btn-primary-color;
+        color: $btn-secondary-color;
+    }
+
+    &-secondary:hover {
+        background-color: $btn-secondary-hover;
+        color: $btn-secondary-color-hover;
+        transform: translate(-20px,0px);
+    }
+}
